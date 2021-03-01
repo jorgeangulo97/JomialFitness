@@ -1,6 +1,6 @@
 USE [master]
 GO
-/****** Object:  Database [Jomial]    Script Date: 26/02/2021 9:19:02 ******/
+/****** Object:  Database [Jomial]    Script Date: 01/03/2021 9:59:28 ******/
 CREATE DATABASE [Jomial]
  CONTAINMENT = NONE
  ON  PRIMARY 
@@ -80,33 +80,29 @@ ALTER DATABASE [Jomial] SET QUERY_STORE = OFF
 GO
 USE [Jomial]
 GO
-/****** Object:  Table [dbo].[Erabiltzailea]    Script Date: 26/02/2021 9:19:02 ******/
+/****** Object:  Table [dbo].[Erabiltzailea]    Script Date: 01/03/2021 9:59:28 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Erabiltzailea](
-	[Id] [int] NULL,
+	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[erabiltzailea] [varchar](50) NULL,
 	[pasahitza] [varchar](16) NULL,
 	[email] [varchar](50) NULL
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[Kontaktatu]    Script Date: 26/02/2021 9:19:02 ******/
+/****** Object:  Table [dbo].[Kontaktatu]    Script Date: 01/03/2021 9:59:28 ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[Kontaktatu](
-	[Id] [int] NULL,
+	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[izena] [varchar](50) NULL,
 	[email] [varchar](50) NULL,
 	[mezua] [varchar](500) NULL
 ) ON [PRIMARY]
-GO
-INSERT [dbo].[Erabiltzailea] ([Id], [erabiltzailea], [pasahitza], [email]) VALUES (1, N'alvaro', N'12345', N'alvaro@gmail.com')
-GO
-INSERT [dbo].[Kontaktatu] ([Id], [izena], [email], [mezua]) VALUES (1, N'Jorge', N'jorge@gmail.com', N'Tengo muchas dudas porque soy un matao')
 GO
 USE [master]
 GO
