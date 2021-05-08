@@ -1,0 +1,5 @@
+{"helbidea": "", "kokalekua": "", "herrialdea": "", "izena": "", "postaKodea": , "distantzia": "", "izarrak": , "kalifikazioa": ,"argazkiak":[{"argazkia": ""},{"argazkia": ""}, {"argazkia": ""}, {"argazkia": ""}, {"argazkia": ""}, {"argazkia": ""}], "info":", "infoGenerala":"","gelak":[{"gela": , "tamaina": "Para 2 personas camas dobles","kostuGaua": },{"gela": , "tamaina": "Habitacion individual","kostuGaua": },{"gela": , "tamaina": "Habitacion de matrimonio","kostuGaua": }],"zerbitzuak":["","","","",""]}
+
+{"izena": "", "abizena": "", "emaila": "", "erabiltzailea": "", "pasahitza": ""}
+
+{"hasiera_data": "", "amaiera_data": "", "hotel_izena": "", "gela":  , "prezio_total": , "emaila": "" ,"txartel_zenbakia": , "txartel_titularra": "", "txartel_iraunginpena": "", "txartel_cvv": }
