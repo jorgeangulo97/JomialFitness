@@ -1,5 +1,5 @@
-# JomialFitness
+# JomialHotel
 
 ##### DAM-2 ikasleak gara eta kurtsoa amaitzeko proiektu final bat egin behar dugu.
 
-##### *Gure proiektua erabiltzaileak osasuntzu egoteko fitness web orri bat izango da ASP teknologiarekin egindakoa (C# lenguaian). Gure web orrian kaloriak eta gorputz-masaren indizea (kg) kalkulatzeko leiho/atal bat egongo da eta zalantzarik izanez gero, gurekin kontaktatu ahal izango da mezu baten bidez Kontaktu leihoan. Gainera, erabiltzailea web orrian logeatuta badago motibazio bideoak ikusi ahal izango ditu.*
+##### *Gure proiektuaren helburua datu-base baten biltegiratutako datuekin lan egingo duen web orri bat garatzea da.Horretarako 3 teknologia erabiliko ditugu.Hasteko ASP.NET teknologiarekin web orria garatuko dugu, honek, Javaren Spring Boot Frameworkean garatutako RESTful API bati eskariak egingo dizkio eta azkenik Restful zerbitzu honek, MongoDB datu-base baten biltegiratutako datuak atzituko ditu(gure kasuan hotelen informazioa kudeatuko dugu).Hiru teknologiak ordenagailu berdinean egongo dira.*
